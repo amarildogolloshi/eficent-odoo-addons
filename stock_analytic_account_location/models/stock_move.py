@@ -45,14 +45,14 @@ class StockMove(orm.Model):
                 move.browse(cr, uid, vals['location_id'])
                 check_analytic = True
             else:
-                src_loc = move.location_id.id
+                src_loc = move.location_id
 
             if 'location_dest_id' in vals:
                 dest_loc = self.pool.get('stock.location').browse(
                     cr, uid, vals['location_dest_id'])
                 check_analytic = True
             else:
-                dest_loc = move.location_dest_id.id
+                dest_loc = move.location_dest_id
 
             if check_analytic:
                 add_analytic_id = False

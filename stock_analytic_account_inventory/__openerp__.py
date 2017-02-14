@@ -39,9 +39,8 @@ Features of this module:
     """,
     "init_xml": [],
     'data': [
-             'view/stock_view.xml',
-             'view/stock_picking_view.xml',
-             'view/analytic_account_view.xml'
+             'wizard/stock_change_product_qty_view.xml',
+             'wizard/stock_fill_inventory_view.xml',
     ],
     'test':[
         'test/stock_users.yml',
