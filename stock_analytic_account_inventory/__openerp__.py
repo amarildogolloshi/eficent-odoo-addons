@@ -26,7 +26,7 @@
     "author": "Eficent",
     "website": "www.eficent.com",
     'summary': 'Adds the analytic account to stock moves',
-    "depends": ["stock", "analytic"],
+    "depends": ["stock_analytic_account"],
     "description": """
 Project Procurement
 ===================
