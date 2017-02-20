@@ -43,13 +43,6 @@ Features of this module:
              'view/stock_picking_view.xml',
              'view/analytic_account_view.xml'
     ],
-    'test':[
-        'test/stock_users.yml',
-        'demo/stock_demo.yml',
-        'test/opening_stock.yml',
-        'test/shipment.yml',
-        'test/setlast_tracking.yml',
-    ],
     'installable': True,
     'active': False,
     'certificate': '',
